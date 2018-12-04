@@ -5,7 +5,7 @@ import Card from './Card';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-	<div>
+	<div className="main">
 	<Card img="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/434279main_soviet_rovers_lunokhod.jpg/267px-434279main_soviet_rovers_lunokhod.jpg" 
 	title="Moon rover 1" text="The world's first moon rover, successfully working on the Moon" more="Learn more" learn="https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%BD%D0%BE%D1%85%D0%BE%D0%B4-1"></Card>
 

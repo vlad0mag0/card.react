@@ -16,7 +16,7 @@ class Card extends Component{
     				{this.props.text}
   			</div>
   				<div className="mdl-card__actions mdl-card--border">
-    				<a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href=' +{this.props.learn}+'
+    				<a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href={this.props.learn}
             target="_blank">
 
      				 	{this.props.more}
